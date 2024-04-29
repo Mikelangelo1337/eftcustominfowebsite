@@ -1,0 +1,122 @@
+@media screen and (min-width: 289px) {
+    .div-boss-container {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hp {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 30px;
+    }
+
+    .boss-info-img {
+        width: 60%;
+    }
+
+    .boss-img {
+        width: 30%;
+
+    }
+
+    .div-boss-container p {
+        color: red;
+        font-weight: bold;
+        font-size: 30px;
+    }
+}
+
+@media(min-width: 498px) and (max-width: 600px) {
+    .boss-container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hp {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 30px;
+    }
+
+    .div-boss-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boss-img {
+        width: 30%;
+    }
+
+    .boss-info-img {
+        width: 60%;
+    }
+
+    .div-boss-container p {
+        color: red;
+        font-weight: bold;
+        font-size: 10px;
+    }
+}
+
+
+
+.boss-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+    width: 100%;
+}
+
+.hp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-arms {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.div-legs {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.boss-info {
+
+    width: 100%;
+}
+
+.boss-flexy {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.boss-text {
+    display: flex;
+    justify-content: center;
+}
+
+.equipment {
+    display: flex;
+    justify-content: space-around;
+}
+
+.boss-equipment-img {
+    width: 15%;
+}

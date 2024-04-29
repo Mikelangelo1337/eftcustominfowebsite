@@ -1,0 +1,84 @@
+.quest-txt {
+    display: flex;
+    justify-content: center;
+}
+
+.quest-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.traders {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.traders img {
+    width: 100%;
+}
+
+.selected-trader {
+    border: 3px solid red;
+
+}
+
+
+
+
+
+.selected-trader-quests {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.quest-item img {
+    width: 50%;
+}
+
+.quest-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 400px) and (max-width: 800px) {
+
+    .selected-trader-quests {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .quest-item img {
+        width: 40%;
+    }
+
+    .quest-txt h1 {
+        font-size: 20px;
+    }
+
+    .rewards {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 12px;
+    }
+
+    .quest-img {
+        width: 100%;
+    }
+}
+
+.rewards {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+}
+
+.quest-img {
+    width: 40%;
+}

@@ -1,0 +1,175 @@
+body {
+    background: black;
+    padding: 0;
+
+}
+
+#container-header {
+    display: flex;
+    justify-content: center;
+}
+
+#searchInput2 {
+    display: none;
+}
+
+p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button {
+    width: 100%;
+    background-color: hsla(0, 0%, 100%, .05);
+    color: white;
+    font-weight: bold;
+}
+
+input {
+    background: hsla(0, 0%, 100%, .05);
+    width: 10%;
+    border: none;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+
+    color: white;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    padding: 10px;
+    margin: 5px;
+}
+
+a {
+    color: #9a8866;
+    opacity: 1;
+    text-decoration: none;
+    opacity: 0.8;
+    font-size: 25px;
+
+}
+
+a:hover {
+    opacity: 1
+}
+
+.title a {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.time-block[data-v-bdf11458] {
+    font-size: 1.2rem;
+    font-weight: 700;
+    height: 25px;
+    line-height: 25%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.alt,
+p {
+    color: #aeaeb0;
+    font-weight: bold;
+}
+
+
+.menu {
+    z-index: 1;
+    width: 500px;
+    gap: 20px;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+
+img {
+    width: 60px;
+}
+
+@media (min-width: 398px) and (max-width: 895px) {
+    #searchInput {
+        display: none;
+    }
+
+    #searchInput2 {
+        display: block;
+        width: 100%;
+    }
+
+    header {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid gray;
+        border-top: 1px solid gray;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    a {
+        color: #9a8866;
+        opacity: 1;
+        text-decoration: none;
+        transition: opacity .3s ease-out;
+        font-size: 15px;
+    }
+
+    .title a {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .div-cell {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .time-block[data-v-bdf11458] {
+        font-size: 1.2rem;
+        font-weight: 700;
+        height: 25px;
+        line-height: 25%;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    .alt,
+    p {
+        color: #aeaeb0;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+
+    .menu {
+        z-index: 1;
+        width: 100%;
+        overflow-x: hidden;
+        display: grid;
+        grid-template-columns: 100px 100px;
+        justify-content: center;
+        padding: 12px;
+
+    }
+
+
+
+
+    img {
+        width: 60px;
+    }
+}
